@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Portfolio</title>
+  <style>
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    h1 {
+      margin: 0;
+    }
+    ul {
+    margin-top: 0;
+    padding-left: 20px;
+  }
+  li {
+    margin-bottom: 0.5em;
+  }
+    main {
+      padding: 20px;
+    }
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+     .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      grid-gap: 10px;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Runming Yan</h1>
+    <p>Front-end Developer</p>
+  </header>
+  <div class="gallery">
+    <img src="./08.jpeg" alt="Image 1">
+    <img src="./DSC_0082.JPG" alt="Image 2">
+    <img src="./thumbnail_MLTM-622_0551.jpg" alt="Image 3">
+    <!-- Add more images as needed -->
+  </div>
+  <main>
+
+    
+    <h2>About Me</h2>
+    <p>
+       My name is Runming Yan, I am from Beijing, China. I came to the United State back from 2014 when I was on high school.
+       I went to Ben Lippen School from 2014 to 2017 and after I went to Miami University, Oxford and got my Bachlor's degree
+       in Computer Science on May 2021, then I went to Washington University in St. Louis, MO. I have just graduated this May
+       with my Master of Science in Computer Science degree and looking forward to my mystery career life in future. Glad to 
+       meet you!
+
+    </p>
+ 
+    <h2>Publications</h2>
+    <ul>
+      <li>
+        <h3>Dean Yu, Mike Stahr, Han Chen and Runming Yan (2020). <a href="https://arxiv.org/abs/2012.12522">Design and Implementation Knowledge Graph  for Curriculum System in University. 
+            Accepted and approved for publishing by ICCECE 2021</a> </h3>
+        <p>With the fact that the knowledge in each field in university is keeping increasing,
+             the number of university courses is becoming larger, and the content and curriculum
+              system is becoming much more complicated than it used to be, which bring many inconveniences to the course arrangement and analysis. In this paper, we aim to construct a method to visualize all courses based on Google 
+              Knowledge Graph. By analysing the properties of the courses and their preceding 
+              requirements, we want to extract the relationship between the precursors and the 
+              successors, so as to build the knowledge graph of the curriculum system. 
+              Using the graph database Neo4j <a href="https://neo4j.com/">[1]</a> as the core aspect for data storage and display for our new curriculum system will be our approach to implement our knowledge graph. Based on this graph, the venation relationship between courses can be clearly analysed, and some difficult information can be obtained, which can help to combine the outline of courses and the need to quickly query the venation information of courses.</p>
+      </li>
+      
+    </ul>
+
+    <h2>Summary</h2>
+    <ul>
+        <li>Experience of writing product or system development code using Python, Java, and C++.</li>
+        <li>Techniques: SDLC (Software Development Life Cycle), Resource Planning, Analytics, Unit Testing.</li>
+        <li>Experience with designing data management solutions including developing efficient storage, indexing, and access approaches using Neo4j, MongoDB, MariaDB, and a few other tools.</li>
+        <li>Experience in training and evaluating algorithms and features, committed to encouraging an open and inclusive work environment.</li>
+        <li>Experience with planning, tracking, and managing deliverables on short-term stages and long-term software deployments.</li>
+        <li>Expertise in version control tools and project tracking tools like GIT, Trello board to keep track of the ongoing project status and issues.</li>
+        <li>Expertise in managing team projects related to different fields including machine learning projects and software development projects from groups of three up to seven. Excellent interpersonal abilities, communication skills, time management, and teamwork skills with an intention to work hard to meet project deadlines.</li>
+        <li>Excellent analytical and problem-solving ability to work in a challenging environment.</li>
+        <li>Experience in working with different operating systems like Linux (Ubuntu) and Windows.</li>
+        <li>Experience of creating and editing web pages using JavaScript, HTML, and CSS.</li>
+        <li>Experience in all phases of Software Development Life Cycle like Requirement Analysis, Implementation, Maintenance, and extensive experience with Agile Scrum.</li>
+      </ul>
+      
+      <h2>EXPERIENCE</h2>
+
+      <h3>Department of Computer Science &amp; Engineering at Washington University in St. Louis</h3>
+      <p>August 2022 – May 2023, Teaching Assistant</p>
+      <ul>
+        <li>Worked as primary TA for Dr. Athena Tabakhi in CSE 412A-Introduction to Artificial Intelligence.</li>
+        <li>Grading projects/exams and hosting Office Hours, proctoring exams and answering questions from students related to Machine Learning and Artificial Intelligence fields.</li>
+      </ul>
+      
+      <h3>Dept of Computer Science &amp; Software Engineering, Miami University, Oxford.</h3>
+      <p>January 2021 – May 2021, Teaching Assistant</p>
+      <ul>
+        <li>Worked as teaching assistant to Professor Mike Stahr in two courses, CSE271-Object-Oriented Programming and CSE385-Database Systems.</li>
+        <li>Assisted the professor in designing the course, constructing test problems, preparing materials of courses, grading assignments and exams, and holding office hours to answer questions related to DBMS and Object-Oriented Programming assignments.</li>
+      </ul>
+      
+      <h2>PROJECTS</h2>
+  
+      <h3>Participated in a Kaggle competition</h3>
+      <ul>
+        <li>The training set contains 40 features (continuous) that describe the status and of the robot, and the target value (continuous) describes the appropriate action corresponding to the feature.</li>
+        <li>We have explored our dataset for some preprocessing work using numpy.log1p for the data with better regression normal distribution. We explored and decided to use tree-based models like Random Forest and Gradient and Boosting including XGB, LGBM and CAT Boosting for our model for comparison.</li>
+        <li>Used Trello board to track the project process and tasks.</li>
+        <li>We got 4th place out of 28 teams at the end.</li>
+      </ul>
+      
+      <h3>Built a garden robot</h3>
+      <ul>
+        <li>The robot can be controlled and tested using the Robot Operating System ROS and Gazebo simulation tool.</li>
+        <li>Used Trello board to track the project process and tasks.</li>
+        <li>Involved in the Daily Scrum meetings, Sprint planning, and estimation of the tasks for the user stories.</li>
+      </ul>
+      
+      <h3>Worked on a database for Monster Hunter:World</h3>
+      <ul>
+        <li>We used SQL Script that creates the full database and populates it with data we collected. The database contains the status of the current equipment, the Attack/Defense, and the bonus status based on the bonus set of builds.</li>
+        <li>Connected to MSSQL relational database management system (DBMS) and the .sql file to create the database.</li>
+      </ul>
+    
+    <h2>Contact</h2>
+    <p><a href="tel:+3147604714">+1 (314)-760-4714</a></p>
+    <p><a href="mailto:bruce.y@wustl.edu">bruce.y@wustl.edu</a></p>
+  </main>
+  
+  <footer>
+    &copy; 2023 Runming Yan
+  </footer>
+</body>
+</html>
+
